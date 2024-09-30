@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cont{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex{
+        width: 50%;
+        height: 300px;
+    }
+    #zod{
+        display: flex;
+        background-color: green;
+    }
+    #lela{
+        display: flex;
+        background-color: purple;
+    }
+    #sarga{
+        display: flex;
+        background-color: yellow;
+        flex-shrink: 0.75;
+    }
+    
+</style>
+<body>
+    <div class="cont">
+    <div class="flex" id="zod"></div>
+    <div class="flex" id="lela"></div>
+    <div class="flex" id="sarga"></div>
+    </div>
+</body>
+</html>
